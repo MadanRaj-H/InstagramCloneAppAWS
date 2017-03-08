@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C83B6F0F1E596FF900738BC8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B6F0E1E596FF900738BC8 /* FeedViewController.swift */; };
+		C83B6F111E59704600738BC8 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B6F101E59704600738BC8 /* FeedCell.swift */; };
 		C864ECA91E5199640003A897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864ECA81E5199640003A897 /* AppDelegate.swift */; };
 		C864ECAB1E5199640003A897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864ECAA1E5199640003A897 /* ViewController.swift */; };
 		C864ECAE1E5199640003A897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C864ECAC1E5199640003A897 /* Main.storyboard */; };
@@ -14,6 +16,35 @@
 		C864ECB31E5199640003A897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C864ECB11E5199640003A897 /* LaunchScreen.storyboard */; };
 		C864ECBE1E5199640003A897 /* InstagramCloneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864ECBD1E5199640003A897 /* InstagramCloneAppTests.swift */; };
 		C864ECC91E5199640003A897 /* InstagramCloneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864ECC81E5199640003A897 /* InstagramCloneAppUITests.swift */; };
+		C864ECDB1E51B2C40003A897 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECD71E51B2C40003A897 /* AWSCognito.framework */; };
+		C864ECDC1E51B2C40003A897 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECD81E51B2C40003A897 /* AWSCore.framework */; };
+		C864ECDD1E51B2C40003A897 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECD91E51B2C40003A897 /* AWSDynamoDB.framework */; };
+		C864ECDE1E51B2C40003A897 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECDA1E51B2C40003A897 /* AWSS3.framework */; };
+		C864ECE21E51BA250003A897 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C864ECE11E51BA250003A897 /* GoogleService-Info.plist */; };
+		C864ECE71E51C5250003A897 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECE31E51C5250003A897 /* GoogleAppUtilities.framework */; };
+		C864ECE81E51C5250003A897 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECE41E51C5250003A897 /* GoogleSignIn.framework */; };
+		C864ECE91E51C5250003A897 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECE51E51C5250003A897 /* GoogleSignInDependencies.framework */; };
+		C864ECEA1E51C5250003A897 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECE61E51C5250003A897 /* GoogleSymbolUtilities.framework */; };
+		C864ECEC1E51C52F0003A897 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C864ECEB1E51C52F0003A897 /* GoogleSignIn.bundle */; };
+		C864ECEE1E51C59A0003A897 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECED1E51C59A0003A897 /* SafariServices.framework */; };
+		C864ECF01E51C5AA0003A897 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECEF1E51C5AA0003A897 /* SystemConfiguration.framework */; };
+		C864ECF21E51C77D0003A897 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECF11E51C77D0003A897 /* libz.tbd */; };
+		C864ECF41E51C7860003A897 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECF31E51C7860003A897 /* libsqlite3.tbd */; };
+		C864ECF51E51C8050003A897 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECD81E51B2C40003A897 /* AWSCore.framework */; };
+		C864ECF61E51C8050003A897 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECD81E51B2C40003A897 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C864ECF71E51C8050003A897 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECD91E51B2C40003A897 /* AWSDynamoDB.framework */; };
+		C864ECF81E51C8050003A897 /* AWSDynamoDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECD91E51B2C40003A897 /* AWSDynamoDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C864ECF91E51C8050003A897 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECD71E51B2C40003A897 /* AWSCognito.framework */; };
+		C864ECFA1E51C8050003A897 /* AWSCognito.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECD71E51B2C40003A897 /* AWSCognito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C864ECFB1E51C8050003A897 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECDA1E51B2C40003A897 /* AWSS3.framework */; };
+		C864ECFC1E51C8050003A897 /* AWSS3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C864ECDA1E51B2C40003A897 /* AWSS3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C864ECFF1E5464260003A897 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864ECFE1E5464260003A897 /* UserViewController.swift */; };
+		C864ED011E5467880003A897 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864ED001E5467880003A897 /* User.swift */; };
+		C864ED031E54D1F10003A897 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864ED021E54D1F10003A897 /* PostViewController.swift */; };
+		C864ED051E54D2940003A897 /* Person.png in Resources */ = {isa = PBXBuildFile; fileRef = C864ED041E54D2940003A897 /* Person.png */; };
+		C864ED071E54D6150003A897 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864ED061E54D6150003A897 /* Posts.swift */; };
+		C864ED091E5956DA0003A897 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864ED081E5956DA0003A897 /* Follower.swift */; };
+		C864ED0B1E5958440003A897 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864ED0A1E5958440003A897 /* DatabaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +64,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C864ECFD1E51C8060003A897 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C864ECFC1E51C8050003A897 /* AWSS3.framework in Embed Frameworks */,
+				C864ECFA1E51C8050003A897 /* AWSCognito.framework in Embed Frameworks */,
+				C864ECF81E51C8050003A897 /* AWSDynamoDB.framework in Embed Frameworks */,
+				C864ECF61E51C8050003A897 /* AWSCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C83B6F0E1E596FF900738BC8 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		C83B6F101E59704600738BC8 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		C864ECA51E5199640003A897 /* InstagramCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C864ECA81E5199640003A897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C864ECAA1E5199640003A897 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +97,28 @@
 		C864ECC41E5199640003A897 /* InstagramCloneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramCloneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C864ECC81E5199640003A897 /* InstagramCloneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneAppUITests.swift; sourceTree = "<group>"; };
 		C864ECCA1E5199640003A897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C864ECD71E51B2C40003A897 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognito.framework; path = Frameworks/AWSCognito.framework; sourceTree = "<group>"; };
+		C864ECD81E51B2C40003A897 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = Frameworks/AWSCore.framework; sourceTree = "<group>"; };
+		C864ECD91E51B2C40003A897 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = Frameworks/AWSDynamoDB.framework; sourceTree = "<group>"; };
+		C864ECDA1E51B2C40003A897 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = Frameworks/AWSS3.framework; sourceTree = "<group>"; };
+		C864ECE01E51B4650003A897 /* InstagramCloneApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstagramCloneApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C864ECE11E51BA250003A897 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C864ECE31E51C5250003A897 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		C864ECE41E51C5250003A897 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		C864ECE51E51C5250003A897 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		C864ECE61E51C5250003A897 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		C864ECEB1E51C52F0003A897 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		C864ECED1E51C59A0003A897 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		C864ECEF1E51C5AA0003A897 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C864ECF11E51C77D0003A897 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C864ECF31E51C7860003A897 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C864ECFE1E5464260003A897 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		C864ED001E5467880003A897 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C864ED021E54D1F10003A897 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		C864ED041E54D2940003A897 /* Person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Person.png; sourceTree = "<group>"; };
+		C864ED061E54D6150003A897 /* Posts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		C864ED081E5956DA0003A897 /* Follower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		C864ED0A1E5958440003A897 /* DatabaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +126,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C864ECF41E51C7860003A897 /* libsqlite3.tbd in Frameworks */,
+				C864ECF21E51C77D0003A897 /* libz.tbd in Frameworks */,
+				C864ECF01E51C5AA0003A897 /* SystemConfiguration.framework in Frameworks */,
+				C864ECEE1E51C59A0003A897 /* SafariServices.framework in Frameworks */,
+				C864ECDE1E51B2C40003A897 /* AWSS3.framework in Frameworks */,
+				C864ECE91E51C5250003A897 /* GoogleSignInDependencies.framework in Frameworks */,
+				C864ECEA1E51C5250003A897 /* GoogleSymbolUtilities.framework in Frameworks */,
+				C864ECF51E51C8050003A897 /* AWSCore.framework in Frameworks */,
+				C864ECE81E51C5250003A897 /* GoogleSignIn.framework in Frameworks */,
+				C864ECF91E51C8050003A897 /* AWSCognito.framework in Frameworks */,
+				C864ECE71E51C5250003A897 /* GoogleAppUtilities.framework in Frameworks */,
+				C864ECDB1E51B2C40003A897 /* AWSCognito.framework in Frameworks */,
+				C864ECFB1E51C8050003A897 /* AWSS3.framework in Frameworks */,
+				C864ECDD1E51B2C40003A897 /* AWSDynamoDB.framework in Frameworks */,
+				C864ECF71E51C8050003A897 /* AWSDynamoDB.framework in Frameworks */,
+				C864ECDC1E51B2C40003A897 /* AWSCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +165,8 @@
 		C864EC9C1E5199630003A897 = {
 			isa = PBXGroup;
 			children = (
+				C864ECEB1E51C52F0003A897 /* GoogleSignIn.bundle */,
+				C864ECD61E51B2B50003A897 /* Frameworks */,
 				C864ECA71E5199640003A897 /* InstagramCloneApp */,
 				C864ECBC1E5199640003A897 /* InstagramCloneAppTests */,
 				C864ECC71E5199640003A897 /* InstagramCloneAppUITests */,
@@ -97,12 +187,23 @@
 		C864ECA71E5199640003A897 /* InstagramCloneApp */ = {
 			isa = PBXGroup;
 			children = (
+				C864ED041E54D2940003A897 /* Person.png */,
+				C864ECE11E51BA250003A897 /* GoogleService-Info.plist */,
 				C864ECA81E5199640003A897 /* AppDelegate.swift */,
 				C864ECAA1E5199640003A897 /* ViewController.swift */,
 				C864ECAC1E5199640003A897 /* Main.storyboard */,
 				C864ECAF1E5199640003A897 /* Assets.xcassets */,
 				C864ECB11E5199640003A897 /* LaunchScreen.storyboard */,
 				C864ECB41E5199640003A897 /* Info.plist */,
+				C864ECE01E51B4650003A897 /* InstagramCloneApp-Bridging-Header.h */,
+				C864ECFE1E5464260003A897 /* UserViewController.swift */,
+				C864ED001E5467880003A897 /* User.swift */,
+				C864ED021E54D1F10003A897 /* PostViewController.swift */,
+				C864ED061E54D6150003A897 /* Posts.swift */,
+				C864ED081E5956DA0003A897 /* Follower.swift */,
+				C864ED0A1E5958440003A897 /* DatabaseService.swift */,
+				C83B6F0E1E596FF900738BC8 /* FeedViewController.swift */,
+				C83B6F101E59704600738BC8 /* FeedCell.swift */,
 			);
 			path = InstagramCloneApp;
 			sourceTree = "<group>";
@@ -125,6 +226,25 @@
 			path = InstagramCloneAppUITests;
 			sourceTree = "<group>";
 		};
+		C864ECD61E51B2B50003A897 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C864ECF31E51C7860003A897 /* libsqlite3.tbd */,
+				C864ECF11E51C77D0003A897 /* libz.tbd */,
+				C864ECEF1E51C5AA0003A897 /* SystemConfiguration.framework */,
+				C864ECED1E51C59A0003A897 /* SafariServices.framework */,
+				C864ECE31E51C5250003A897 /* GoogleAppUtilities.framework */,
+				C864ECE41E51C5250003A897 /* GoogleSignIn.framework */,
+				C864ECE51E51C5250003A897 /* GoogleSignInDependencies.framework */,
+				C864ECE61E51C5250003A897 /* GoogleSymbolUtilities.framework */,
+				C864ECD81E51B2C40003A897 /* AWSCore.framework */,
+				C864ECD91E51B2C40003A897 /* AWSDynamoDB.framework */,
+				C864ECD71E51B2C40003A897 /* AWSCognito.framework */,
+				C864ECDA1E51B2C40003A897 /* AWSS3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +255,7 @@
 				C864ECA11E5199630003A897 /* Sources */,
 				C864ECA21E5199630003A897 /* Frameworks */,
 				C864ECA31E5199630003A897 /* Resources */,
+				C864ECFD1E51C8060003A897 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,8 +357,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C864ECB31E5199640003A897 /* LaunchScreen.storyboard in Resources */,
+				C864ECEC1E51C52F0003A897 /* GoogleSignIn.bundle in Resources */,
+				C864ECE21E51BA250003A897 /* GoogleService-Info.plist in Resources */,
 				C864ECB01E5199640003A897 /* Assets.xcassets in Resources */,
 				C864ECAE1E5199640003A897 /* Main.storyboard in Resources */,
+				C864ED051E54D2940003A897 /* Person.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +386,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C864ED011E5467880003A897 /* User.swift in Sources */,
+				C83B6F111E59704600738BC8 /* FeedCell.swift in Sources */,
+				C83B6F0F1E596FF900738BC8 /* FeedViewController.swift in Sources */,
+				C864ED091E5956DA0003A897 /* Follower.swift in Sources */,
+				C864ED071E54D6150003A897 /* Posts.swift in Sources */,
 				C864ECAB1E5199640003A897 /* ViewController.swift in Sources */,
+				C864ECFF1E5464260003A897 /* UserViewController.swift in Sources */,
 				C864ECA91E5199640003A897 /* AppDelegate.swift in Sources */,
+				C864ED0B1E5958440003A897 /* DatabaseService.swift in Sources */,
+				C864ED031E54D1F10003A897 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,10 +548,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2P797DB3HH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = InstagramCloneApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.citi.madan.InstagramCloneApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstagramCloneApp/InstagramCloneApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -429,10 +571,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2P797DB3HH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = InstagramCloneApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.citi.madan.InstagramCloneApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstagramCloneApp/InstagramCloneApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -514,6 +666,7 @@
 				C864ECCF1E5199640003A897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C864ECD01E5199640003A897 /* Build configuration list for PBXNativeTarget "InstagramCloneAppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +675,7 @@
 				C864ECD21E5199640003A897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C864ECD31E5199640003A897 /* Build configuration list for PBXNativeTarget "InstagramCloneAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +684,7 @@
 				C864ECD51E5199640003A897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
